@@ -1,6 +1,6 @@
 {
   "name": "@fetch-suit/react-fetch-interceptor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a very simple fetch interception solution for react",
   "type": "module",
   "types": "./dist/index.d.ts",
@@ -17,6 +17,9 @@
   ],
   "author": "hungtcs <hungtcs@outlook.com>",
   "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hungtcs/fetch-suit.git"
@@ -33,5 +36,5 @@
   "peerDependencies": {
     "react": "^18.0.0"
   },
-  "gitHead": "1520613d14b579d50c289fe3edc9e724fcfb1dc9"
+  "gitHead": "5e919d3af817f0093edcc95b6bb7898f2660f743"
 }

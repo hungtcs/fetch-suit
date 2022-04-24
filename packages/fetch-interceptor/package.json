@@ -1,6 +1,6 @@
 {
   "name": "@fetch-suit/fetch-interceptor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a very simple fetch interceptor wrapper",
   "type": "module",
   "exports": "./dist/index.js",
@@ -12,6 +12,9 @@
   ],
   "devDependencies": {
     "typescript": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsc",
@@ -27,5 +30,5 @@
     "url": "https://github.com/hungtcs/fetch-suit/issues"
   },
   "homepage": "https://github.com/hungtcs/fetch-suit#readme",
-  "gitHead": "1520613d14b579d50c289fe3edc9e724fcfb1dc9"
+  "gitHead": "5e919d3af817f0093edcc95b6bb7898f2660f743"
 }
