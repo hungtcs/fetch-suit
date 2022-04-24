@@ -1,0 +1,32 @@
+{
+  "name": "react-fetch-interceptor-example",
+  "description": "example for react-fetch-interceptor",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSE",
+  "scripts": {
+    "webpack": "webpack",
+    "build": "webpack --env production",
+    "start:dev": "webpack serve"
+  },
+  "author": "鸿则 <hungtcs@outlook.com> (https://github.com/hungtcs-lab)",
+  "main": "index.js",
+  "keywords": [],
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "@types/node": "^17.0.25",
+    "@types/react-dom": "^18.0.2",
+    "fork-ts-checker-webpack-plugin": "^7.2.7",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.8",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "react-dom": "^18.0.0",
+    "webpack-dev-server": "^4.8.1"
+  }
+}

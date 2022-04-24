@@ -1,0 +1,31 @@
+{
+  "name": "@fetch-suit/fetch-interceptor",
+  "version": "0.0.0",
+  "description": "a very simple fetch interceptor wrapper",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "fetch",
+    "fetch-interceptor",
+    "ajax"
+  ],
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "hungtcs <hungtcs@outlook.com>",
+  "license": "UNLICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungtcs/fetch-suit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hungtcs/fetch-suit/issues"
+  },
+  "homepage": "https://github.com/hungtcs/fetch-suit#readme",
+  "gitHead": "1520613d14b579d50c289fe3edc9e724fcfb1dc9"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "fetch-suit",
+  "version": "0.0.0",
+  "private": true,
+  "description": "a very simple fetch interceptor wrapper",
+  "scripts": {
+    "build": "lerna run --stream build"
+  },
+  "author": "hungtcs <hungtcs@outlook.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "example",
+    "packages/*"
+  ]
+}
