@@ -34,7 +34,6 @@
     "typescript": "^4.6.3"
   },
   "peerDependencies": {
-    "@fetch-suit/fetch-interceptor": "^0.0.2",
     "react": "^18.0.0"
   },
   "gitHead": "5e919d3af817f0093edcc95b6bb7898f2660f743"
