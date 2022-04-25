@@ -9,7 +9,8 @@
   "author": "hungtcs <hungtcs@outlook.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "lerna-update-wizard": "^1.1.2"
   },
   "workspaces": [
     "example",
