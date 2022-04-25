@@ -1,6 +1,6 @@
 {
   "name": "@fetch-suit/react-fetch-interceptor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a very simple fetch interception solution for react",
   "type": "module",
   "types": "./dist/index.d.ts",
