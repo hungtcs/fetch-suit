@@ -1,6 +1,7 @@
 import React from 'react';
 import { PropsWithChildren } from 'react';
-import { FetchInterceptor, Fetch } from '@fetch-suit/react-fetch-interceptor';
+import { Fetch } from '@fetch-suit/fetch-interceptor';
+import { FetchInterceptor } from '@fetch-suit/react-fetch-interceptor';
 
 async function bearerTokenInterceptor(request: Request, fetch: Fetch) {
   request.headers.append('Authorization', `Bearer fake.bearer.token`);

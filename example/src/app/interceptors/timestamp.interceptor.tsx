@@ -1,6 +1,7 @@
 import React from 'react';
+import { Fetch } from '@fetch-suit/fetch-interceptor';
 import { PropsWithChildren } from 'react';
-import { FetchInterceptor, Fetch } from '@fetch-suit/react-fetch-interceptor';
+import { FetchInterceptor } from '@fetch-suit/react-fetch-interceptor';
 
 async function timestampInterceptor(request: Request, fetch: Fetch) {
   const url = new URL(request.url);

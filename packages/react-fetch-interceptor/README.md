@@ -5,7 +5,7 @@ A very simple fetch interception solution for react
 ## Installation
 
 ```shell
-npm install @fetch-suit/react-fetch-interceptor
+npm install @fetch-suit/fetch-interceptor @fetch-suit/react-fetch-interceptor
 ```
 
 ## How To Use
