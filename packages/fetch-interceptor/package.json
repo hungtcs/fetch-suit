@@ -10,6 +10,9 @@
     "fetch-interceptor",
     "ajax"
   ],
+  "files": [
+    "dist/"
+  ],
   "devDependencies": {
     "typescript": "^4.6.3"
   },
