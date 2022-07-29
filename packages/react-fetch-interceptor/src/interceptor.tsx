@@ -13,3 +13,9 @@ export function FetchInterceptor(props: PropsWithChildren<FetchInterceptorProps>
   const newFetch = applyInterceptors(fetch, ...interceptors);
   return (<FetchContext.Provider value={newFetch}>{ children }</FetchContext.Provider>);
 }
+
+export function createInterceptorComponent(interceptors: Interceptor | Array<Interceptor>) {
+  return function Interceptor(props: PropsWithChildren<{}>) {
+    return (<FetchInterceptor interceptors={interceptors}>{props.children}</FetchInterceptor>);
+  }
+}

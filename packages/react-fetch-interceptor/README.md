@@ -22,6 +22,9 @@ async function bearerTokenInterceptor(request: Request, fetch: Fetch) {
   return await fetch(request);
 }
 
+export const BearerTokenInterceptor = createInterceptorComponent(bearerTokenInterceptor);
+
+// createInterceptorComponent equivalent to
 export function BearerTokenInterceptor(props: PropsWithChildren<{}>) {
   return (
     <FetchInterceptor
