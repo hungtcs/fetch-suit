@@ -1,0 +1,42 @@
+{
+  "name": "@fetch-suit/react-axios-interceptor",
+  "version": "0.0.0",
+  "description": "a very simple axios interception solution for react",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "axios",
+    "axios-interceptor",
+    "ajax"
+  ],
+  "author": "hungtcs <hungtcs@outlook.com>",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungtcs/fetch-suit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hungtcs/fetch-suit/issues"
+  },
+  "homepage": "https://github.com/hungtcs/fetch-suit#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.6",
+    "axios": "^0.27.2",
+    "tsconfig": "^7.0.0",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "axios": "^0.27.2",
+    "react": "^18.0.0"
+  },
+  "gitHead": "5e919d3af817f0093edcc95b6bb7898f2660f743"
+}
